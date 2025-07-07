@@ -9,7 +9,7 @@
     {
       "binding": "DB",
       "database_name": "demo",
-      "database_id": "120f9d8a-8bf9-4a8f-81cb-b707fc90b5da",
+      "database_id": "8c8a238f-fd1c-4e3c-9220-b7403a365a20",
       "migrations_dir": "migrations"
     }
   ],
