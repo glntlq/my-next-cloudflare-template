@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - 'feature/gln'
+      - 'develop'
   workflow_dispatch:
 
 jobs:
