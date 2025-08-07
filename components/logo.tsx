@@ -1,6 +1,7 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
+// eslint-disable-next-line import/order
 import Image from 'next/image'
 
 import { Link } from '@/i18n/navigation'

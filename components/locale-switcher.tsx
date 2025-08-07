@@ -1,7 +1,9 @@
 'use client'
 
+
 import { Check, Globe } from 'lucide-react'
 import { Locale, useLocale } from 'next-intl'
+// eslint-disable-next-line import/order
 import { useParams } from 'next/navigation'
 import { useTransition } from 'react'
 
