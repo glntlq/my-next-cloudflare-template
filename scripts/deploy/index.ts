@@ -12,12 +12,13 @@ const DATABASE_NAME = process.env.DATABASE_NAME || 'next-template-db'
 const KV_NAMESPACE_NAME = process.env.KV_NAMESPACE_NAME || 'next-template-kv'
 const KV_NAMESPACE_ID = process.env.KV_NAMESPACE_ID
 
+const environments = ['AUTH_GOOGLE_ID', 'AUTH_SECRET', 'AUTH_GOOGLE_SECRET', 'NEXT_PUBLIC_BASE_URL']
+
 /**
  * 验证必要的环境变量
  */
 const validateEnvironment = () => {
-  const requiredEnvVars = ['CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN']
-  const missing = requiredEnvVars.filter((varName) => !process.env[varName])
+  const missing = environments.filter((varName) => !process.env[varName])
 
   if (missing.length > 0) {
     throw new Error(`Missing required environment variables: ${missing.join(', ')}`)
@@ -197,9 +198,6 @@ const checkAndCreatePages = async () => {
 const pushPagesSecret = () => {
   console.log('🔐 Pushing environment secrets to Pages...')
 
-  // 定义运行时所需的环境变量列表
-  const runtimeEnvVars = ['AUTH_GOOGLE_ID', 'AUTH_SECRET', 'AUTH_GOOGLE_SECRET']
-
   try {
     // 确保.env文件存在
     if (!existsSync(resolve('.env'))) {
@@ -219,7 +217,7 @@ const pushPagesSecret = () => {
         if (!trimmedLine || trimmedLine.startsWith('#')) return false
 
         // 检查是否为运行时所需的环境变量
-        for (const varName of runtimeEnvVars) {
+        for (const varName of environments) {
           if (line.startsWith(`${varName} =`) || line.startsWith(`${varName}=`)) {
             return true
           }

@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Привет",
+    "about": "Перейти на страницу о нас",
+    "meta": {
+      "title": "Главная | {brandName}",
+      "description": "Добро пожаловать на главную страницу {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "О этом сайте",
+    "home": "Перейти на главную страницу",
+    "description": "Это описание нашего веб-сайта",
+    "settings": "Настройки"
+  },
+  "headers": {
+    "home": "Главная",
+    "about": "О нас"
+  },
+  "siteInfo": {
+    "brandName": "Шаблон Next",
+    "description": "Думать, писать, кодировать",
+    "meta": {
+      "title": "Шаблон Next - Думать, писать, кодировать",
+      "description": "Реактивный, легкий и доступный фреймворк для фронтенда, использующий Next.js, TypeScript и Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Добро пожаловать в Шаблон Next",
+      "description": "Войдите, чтобы продолжить",
+      "triggerText": "Войти"
+    },
+    "form": {
+      "continueWithGoogle": "Продолжить с Google",
+      "continueWithGithub": "Продолжить с GitHub",
+      "orContinueWith": "Или продолжить с",
+      "emailPlaceholder": "Введите ваш email",
+      "signInWithEmail": "Войти по email"
+    }
+  },
+  "footer": {
+    "description": "Расширяем границы общения с ИИ. Опыт будущего общения с LinkAI.",
+    "contact": {
+      "title": "Контакты",
+      "intro": "По вопросам обращайтесь:",
+      "email": "contact@yourdomain.com",
+      "responseTime": "Время ответа: В течение 24-48 часов"
+    },
+    "quickLinks": {
+      "title": "Быстрые ссылки",
+      "home": "Главная",
+      "aboutUs": "О нас",
+      "refundPolicy": "Политика возврата",
+      "subscriptionTerms": "Условия подписки"
+    },
+    "copyright": " 2024 Cozyai LLC. Все права защищены."
+  },
+  "common": {
+    "previous": "Предыдущий",
+    "next": "Следующий",
+    "morePage": "Больше страниц",
+    "close": "Закрыть"
+  }
+}

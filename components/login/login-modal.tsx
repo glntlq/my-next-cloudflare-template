@@ -2,6 +2,7 @@
 
 import { LogIn } from 'lucide-react'
 import { useSession } from 'next-auth/react'
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 
 import LoginForm from '@/components/login/login-form'
@@ -15,7 +16,6 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@/components/ui/dialog'
-
 
 interface LoginModalProps {
   triggerText?: string
@@ -34,6 +34,7 @@ export default function LoginModal({
 }: LoginModalProps) {
   const [isOpen, setIsOpen] = useState(false)
   const session = useSession()
+  const t = useTranslations('login.modal')
 
   if (session.status === 'authenticated') {
     return <SignOutButton />
@@ -49,8 +50,8 @@ export default function LoginModal({
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-center text-2xl font-bold">Welcome to Next Template</DialogTitle>
-          <DialogDescription className="text-center">Sign in to continue your journey</DialogDescription>
+          <DialogTitle className="text-center text-2xl font-bold">{t('title')}</DialogTitle>
+          <DialogDescription className="text-center">{t('description')}</DialogDescription>
         </DialogHeader>
         <LoginForm onSuccess={() => setIsOpen(false)} />
       </DialogContent>

@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "مرحبا",
+    "about": "انتقل إلى صفحة عن",
+    "meta": {
+      "title": "الصفحة الرئيسية | {brandName}",
+      "description": "مرحبًا بك في الصفحة الرئيسية لـ {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "عن هذا الموقع",
+    "home": "انتقل إلى الصفحة الرئيسية",
+    "description": "هذا وصف لموقعنا على الإنترنت",
+    "settings": "الإعدادات"
+  },
+  "headers": {
+    "home": "الصفحة الرئيسية",
+    "about": "عن"
+  },
+  "siteInfo": {
+    "brandName": "قالب التالي",
+    "description": "فكر، اكتب، شفر",
+    "meta": {
+      "title": "قالب Next - فكر، اكتب، شفر",
+      "description": "إطار عمل أمامي استجابة، خفيف، ويمكن الوصول إليه باستخدام Next.js، TypeScript و Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "مرحبًا بك في قالب التالي",
+      "description": "سجّل الدخول لمتابعة رحلتك",
+      "triggerText": "تسجيل الدخول"
+    },
+    "form": {
+      "continueWithGoogle": "استمر مع Google",
+      "continueWithGithub": "استمر مع GitHub",
+      "orContinueWith": "أو استمر مع",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
+      "signInWithEmail": "سجّل الدخول عبر البريد الإلكتروني"
+    }
+  },
+  "footer": {
+    "description": "تمكين المحادثات بالذكاء الاصطناعي. اختبر مستقبل الاتصالات مع LinkAI.",
+    "contact": {
+      "title": "اتصل بنا",
+      "intro": "للاستفسارات، يرجى الاتصال:",
+      "email": "contact@yourdomain.com",
+      "responseTime": "وقت الرد: خلال 24-48 ساعة"
+    },
+    "quickLinks": {
+      "title": "روابط سريعة",
+      "home": "الصفحة الرئيسية",
+      "aboutUs": "عنّا",
+      "refundPolicy": "سياسة الاسترداد",
+      "subscriptionTerms": "شروط الاشتراك"
+    },
+    "copyright": "© 2024 Cozyai LLC. جميع الحقوق محفوظة."
+  },
+  "common": {
+    "previous": "السابق",
+    "next": "التالي",
+    "morePage": "المزيد من الصفحات",
+    "close": "إغلاق"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Olá",
+    "about": "Ir para a página sobre",
+    "meta": {
+      "title": "Início | {brandName}",
+      "description": "Bem-vindo à página inicial de {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "Sobre este site",
+    "home": "Ir para a página inicial",
+    "description": "Esta é uma descrição do nosso site",
+    "settings": "Configurações"
+  },
+  "headers": {
+    "home": "Início",
+    "about": "Sobre"
+  },
+  "siteInfo": {
+    "brandName": "Próximo Modelo",
+    "description": "Pensar, escrever, codificar",
+    "meta": {
+      "title": "Modelo Next - Pensar, escrever, codificar",
+      "description": "Uma estrutura de frontend responsiva, leve e acessível que usa Next.js, TypeScript e Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Bem-vindo ao Próximo Modelo",
+      "description": "Faça login para continuar sua jornada",
+      "triggerText": "Entrar"
+    },
+    "form": {
+      "continueWithGoogle": "Continuar com o Google",
+      "continueWithGithub": "Continuar com o GitHub",
+      "orContinueWith": "Ou continuar com",
+      "emailPlaceholder": "Insira seu e-mail",
+      "signInWithEmail": "Entrar com e-mail"
+    }
+  },
+  "footer": {
+    "description": "Capacitando conversas com IA. Experimente o futuro da comunicação com o LinkAI.",
+    "contact": {
+      "title": "Contato",
+      "intro": "Para consultas, por favor, entre em contato:",
+      "email": "contato@seudominio.com",
+      "responseTime": "Tempo de resposta: Dentro de 24-48 horas"
+    },
+    "quickLinks": {
+      "title": "Links Rápidos",
+      "home": "Início",
+      "aboutUs": "Sobre Nós",
+      "refundPolicy": "Política de Reembolso",
+      "subscriptionTerms": "Termos de Assinatura"
+    },
+    "copyright": " 2024 Cozyai LLC. Todos os direitos reservados."
+  },
+  "common": {
+    "previous": "Anterior",
+    "next": "Próximo",
+    "morePage": "Mais páginas",
+    "close": "Fechar"
+  }
+}

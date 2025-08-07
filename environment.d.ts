@@ -8,6 +8,7 @@ namespace NodeJS {
 interface CloudflareEnv {
   DB: D1Database
   KV: KVNamespace
+  AI: Ai
 }
 
 type Env = CloudflareEnv
