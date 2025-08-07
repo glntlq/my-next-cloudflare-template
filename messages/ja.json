@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "こんにちは",
+    "about": "アバウトページへ",
+    "meta": {
+      "title": "{brandName} ホーム",
+      "description": "{brandName} のホームページへようこそ"
+    }
+  },
+  "AboutPage": {
+    "title": "このサイトについて",
+    "home": "ホームページへ",
+    "description": "当ウェブサイトの説明です",
+    "settings": "設定"
+  },
+  "headers": {
+    "home": "ホーム",
+    "about": "アバウト"
+  },
+  "siteInfo": {
+    "brandName": "ネクストテンプレート",
+    "description": "考える、書く、コードする",
+    "meta": {
+      "title": "Next テンプレート - 考える、書く、コードする",
+      "description": "Next.js、TypeScript、Tailwind CSSを使用したレスポンシブで軽量、かつアクセシブルなフロントエンドフレームワーク。"
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "ネクストテンプレートへようこそ",
+      "description": "旅を続けるためにサインインしてください",
+      "triggerText": "ログイン"
+    },
+    "form": {
+      "continueWithGoogle": "Googleで続ける",
+      "continueWithGithub": "GitHubで続ける",
+      "orContinueWith": "または、以下で続ける",
+      "emailPlaceholder": "あなたのメールアドレスを入力してください",
+      "signInWithEmail": "メールアドレスでサインインする"
+    }
+  },
+  "footer": {
+    "description": "AIで会話を強化する。LinkAIでコミュニケーションの未来を体験してください。",
+    "contact": {
+      "title": "お問い合わせ",
+      "intro": "お問い合わせは、以下までお願いします。",
+      "email": "contact@yourdomain.com",
+      "responseTime": "返信時間：24-48時間以内"
+    },
+    "quickLinks": {
+      "title": "クイックリンク",
+      "home": "ホーム",
+      "aboutUs": "会社概要",
+      "refundPolicy": "返金ポリシー",
+      "subscriptionTerms": "サブスクリプション規約"
+    },
+    "copyright": " 2024 Cozyai LLC. All rights reserved."
+  },
+  "common": {
+    "previous": "前へ",
+    "next": "次へ",
+    "morePage": "もっと見る",
+    "close": "閉じる"
+  }
+}

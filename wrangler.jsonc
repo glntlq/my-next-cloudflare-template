@@ -13,5 +13,8 @@
       "migrations_dir": "migrations"
     }
   ],
+  "ai": {
+    "binding": "AI"
+  },
   "pages_build_output_dir": ".vercel/output/static"
 }

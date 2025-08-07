@@ -1,0 +1,65 @@
+{
+  "siteInfo": {
+    "brandName": "Next Template",
+    "description": "Think, Write, Code",
+    "meta": {
+      "title": "Next Template - Think, Write, Code",
+      "description": "A responsive, lightweight, and accessible front-end framework using Next.js, TypeScript, and Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Welcome to Next Template",
+      "description": "Sign in to continue your journey",
+      "triggerText": "Login"
+    },
+    "form": {
+      "continueWithGoogle": "Continue with Google",
+      "continueWithGithub": "Continue with GitHub",
+      "orContinueWith": "Or continue with",
+      "emailPlaceholder": "Enter your email",
+      "signInWithEmail": "Sign in with Email"
+    }
+  },
+  "footer": {
+    "description": "Empowering conversations with AI. Experience the future of communication with LinkAI.",
+    "contact": {
+      "title": "Contact",
+      "intro": "For inquiries, please contact:",
+      "email": "contact@yourdomain.com",
+      "responseTime": "Response time: Within 24-48 hours"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "aboutUs": "About Us",
+      "refundPolicy": "Refund Policy",
+      "subscriptionTerms": "Subscription Terms"
+    },
+    "copyright": "© 2024 Cozyai LLC. All rights reserved."
+  },
+  "common": {
+    "previous": "Previous",
+    "next": "Next",
+    "morePage": "More pages",
+    "close": "Close"
+  },
+  "headers": {
+    "home": "Home",
+    "about": "About"
+  },
+  "HomePage": {
+    "title": "Hello",
+    "about": "Go to the about page",
+    "meta": {
+      "title": "Home | {brandName}",
+      "description": "Welcome to the home page of {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "About this site",
+    "home": "Go to the home page",
+    "settings": "Settings",
+    "description": "This is a description of our website"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Ciao",
+    "about": "Vai alla pagina Chi siamo",
+    "meta": {
+      "title": "Home | {brandName}",
+      "description": "Benvenuto sulla pagina di destinazione di {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "Informazioni su questo sito",
+    "home": "Vai alla pagina Home",
+    "description": "Questa è una descrizione del nostro sito web",
+    "settings": "Impostazioni"
+  },
+  "headers": {
+    "home": "Home",
+    "about": "Chi siamo"
+  },
+  "siteInfo": {
+    "brandName": "Prossimo Template",
+    "description": "Pensare, scrivere, codificare",
+    "meta": {
+      "title": "Template Next - Pensare, scrivere, codificare",
+      "description": "Un framework frontend responsivo, leggero e accessibile che utilizza Next.js, TypeScript e Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Benvenuto su Prossimo Template",
+      "description": "Accedi per continuare il tuo percorso",
+      "triggerText": "Accedi"
+    },
+    "form": {
+      "continueWithGoogle": "Continua con Google",
+      "continueWithGithub": "Continua con GitHub",
+      "orContinueWith": "O continua con",
+      "emailPlaceholder": "Inserisci il tuo indirizzo email",
+      "signInWithEmail": "Accedi con Email"
+    }
+  },
+  "footer": {
+    "description": "Empowering conversations with AI. Experience the future of communication with LinkAI.",
+    "contact": {
+      "title": "Contatto",
+      "intro": "Per richieste, si prega di contattare:",
+      "email": "contact@yourdomain.com",
+      "responseTime": "Tempo di risposta: entro 24-48 ore"
+    },
+    "quickLinks": {
+      "title": "Collegamenti rapidi",
+      "home": "Home",
+      "aboutUs": "Chi siamo",
+      "refundPolicy": "Politica di reso",
+      "subscriptionTerms": "Termini di abbonamento"
+    },
+    "copyright": " 2024 Cozyai LLC. Tutti i diritti riservati."
+  },
+  "common": {
+    "previous": "Precedente",
+    "next": "Successivo",
+    "morePage": "Altre pagine",
+    "close": "Chiudi"
+  }
+}

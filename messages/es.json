@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Hola",
+    "about": "Ir a la página de Acerca de",
+    "meta": {
+      "title": "Inicio | {brandName}",
+      "description": "Bienvenido a la página de inicio de {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "Acerca de este sitio",
+    "home": "Ir a la página de inicio",
+    "description": "Esta es una descripción de nuestro sitio web",
+    "settings": "Configuración"
+  },
+  "headers": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "siteInfo": {
+    "brandName": "Plantilla Siguiente",
+    "description": "Pensar, escribir, codificar",
+    "meta": {
+      "title": "Plantilla Next - Pensar, escribir, codificar",
+      "description": "Un marco de frontend responsivo, ligero y accesible que utiliza Next.js, TypeScript y Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Bienvenido a Plantilla Siguiente",
+      "description": "Inicia sesión para continuar tu viaje",
+      "triggerText": "Iniciar sesión"
+    },
+    "form": {
+      "continueWithGoogle": "Continuar con Google",
+      "continueWithGithub": "Continuar con GitHub",
+      "orContinueWith": "O continuar con",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "signInWithEmail": "Iniciar sesión con correo electrónico"
+    }
+  },
+  "footer": {
+    "description": "Empoderando conversaciones con IA. Experimenta el futuro de la comunicación con LinkAI.",
+    "contact": {
+      "title": "Contacto",
+      "intro": "Para consultas, por favor contacta:",
+      "email": "contacto@tu dominio.com",
+      "responseTime": "Tiempo de respuesta: Dentro de 24-48 horas"
+    },
+    "quickLinks": {
+      "title": "Enlaces rápidos",
+      "home": "Inicio",
+      "aboutUs": "Acerca de nosotros",
+      "refundPolicy": "Política de reembolso",
+      "subscriptionTerms": "Términos de suscripción"
+    },
+    "copyright": "© 2024 Cozyai LLC. Todos los derechos reservados."
+  },
+  "common": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "morePage": "Más páginas",
+    "close": "Cerrar"
+  }
+}

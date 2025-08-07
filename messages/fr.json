@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Bonjour",
+    "about": "Aller à la page À propos",
+    "meta": {
+      "title": "Accueil | {brandName}",
+      "description": "Bienvenue sur la page d'accueil de {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "À propos de ce site",
+    "home": "Aller à la page d'accueil",
+    "description": "Ceci est une description de notre site Web",
+    "settings": "Paramètres"
+  },
+  "headers": {
+    "home": "Accueil",
+    "about": "À propos"
+  },
+  "siteInfo": {
+    "brandName": "Modèle Suivant",
+    "description": "Réfléchir, écrire, coder",
+    "meta": {
+      "title": "Modèle Next - Réfléchir, écrire, coder",
+      "description": "Un framework frontend réactif, léger et accessible utilisant Next.js, TypeScript et Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Bienvenue sur Modèle Suivant",
+      "description": "Connectez-vous pour continuer votre voyage",
+      "triggerText": "Connexion"
+    },
+    "form": {
+      "continueWithGoogle": "Continuer avec Google",
+      "continueWithGithub": "Continuer avec GitHub",
+      "orContinueWith": "Ou continuer avec",
+      "emailPlaceholder": "Entrer votre adresse e-mail",
+      "signInWithEmail": "Se connecter avec E-mail"
+    }
+  },
+  "footer": {
+    "description": "Donner aux conversations un pouvoir avec l'IA. Découvrez le futur de la communication avec LinkAI.",
+    "contact": {
+      "title": "Contact",
+      "intro": "Pour les demandes d'informations, veuillez contacter :",
+      "email": "contact@votredomaine.com",
+      "responseTime": "Délai de réponse : Dans les 24-48 heures"
+    },
+    "quickLinks": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "aboutUs": "À propos de nous",
+      "refundPolicy": "Politique de remboursement",
+      "subscriptionTerms": "Conditions d'abonnement"
+    },
+    "copyright": " 2024 Cozyai LLC. Tous droits réservés."
+  },
+  "common": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "morePage": "Plus de pages",
+    "close": "Fermer"
+  }
+}

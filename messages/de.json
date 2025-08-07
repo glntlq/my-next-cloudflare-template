@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "Hallo",
+    "about": "Gehen Sie zur Über-uns-Seite",
+    "meta": {
+      "title": "Startseite | {brandName}",
+      "description": "Willkommen auf der Startseite von {brandName}"
+    }
+  },
+  "AboutPage": {
+    "title": "Über diese Website",
+    "home": "Gehen Sie zur Startseite",
+    "description": "Dies ist eine Beschreibung unserer Website",
+    "settings": "Einstellungen"
+  },
+  "headers": {
+    "home": "Startseite",
+    "about": "Über uns"
+  },
+  "siteInfo": {
+    "brandName": "Next-Vorlage",
+    "description": "Denken, schreiben, codieren",
+    "meta": {
+      "title": "Next-Vorlage - Denken, schreiben, codieren",
+      "description": "Ein responsives, leichtgewichtiges und zugängliches Frontend-Framework mit Next.js, TypeScript und Tailwind CSS."
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "Willkommen bei Next-Vorlage",
+      "description": "Melden Sie sich an, um Ihre Reise fortzusetzen",
+      "triggerText": "Anmelden"
+    },
+    "form": {
+      "continueWithGoogle": "Mit Google fortfahren",
+      "continueWithGithub": "Mit GitHub fortfahren",
+      "orContinueWith": "Oder mit",
+      "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+      "signInWithEmail": "Mit E-Mail anmelden"
+    }
+  },
+  "footer": {
+    "description": "Ermöglichung von Gesprächen mit KI. Erleben Sie die Zukunft der Kommunikation mit LinkAI.",
+    "contact": {
+      "title": "Kontakt",
+      "intro": "Für Anfragen kontaktieren Sie bitte:",
+      "email": "kontakt@ihrdomain.com",
+      "responseTime": "Reaktionszeit: Innerhalb von 24-48 Stunden"
+    },
+    "quickLinks": {
+      "title": "Schnellzugriffe",
+      "home": "Startseite",
+      "aboutUs": "Über uns",
+      "refundPolicy": "Rückerstattungsrichtlinie",
+      "subscriptionTerms": "Abonnementbedingungen"
+    },
+    "copyright": " 2024 Cozyai LLC. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "morePage": "Mehr Seiten",
+    "close": "Schließen"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "HomePage": {
+    "title": "",
+    "about": "",
+    "meta": {
+      "title": "{brandName} 首页",
+      "description": "欢迎访问 {brandName} 的首页"
+    }
+  },
+  "AboutPage": {
+    "title": "",
+    "home": "",
+    "description": "",
+    "settings": ""
+  },
+  "headers": {
+    "home": "",
+    "about": ""
+  },
+  "siteInfo": {
+    "brandName": "Next 模板",
+    "description": "思考、写作、编码",
+    "meta": {
+      "title": "Next 模板 - 思考、写作、编码",
+      "description": "一个使用 Next.js、TypeScript 和 Tailwind CSS 的响应式、轻量级且可访问的前端框架。"
+    }
+  },
+  "login": {
+    "modal": {
+      "title": "欢迎来到 Next 模板",
+      "description": "登录以继续您的旅程",
+      "triggerText": "登录"
+    },
+    "form": {
+      "continueWithGoogle": "继续使用 Google",
+      "continueWithGithub": "继续使用 GitHub",
+      "orContinueWith": "或继续使用",
+      "emailPlaceholder": "请输入您的电子邮件",
+      "signInWithEmail": "使用电子邮件登录"
+    }
+  },
+  "footer": {
+    "description": "用 AI 赋予对话力量。体验与 LinkAI 沟通的未来。",
+    "contact": {
+      "title": "联系",
+      "intro": "如需查询，请联系：",
+      "email": "contact@yourdomain.com",
+      "responseTime": "响应时间：24-48 小时内"
+    },
+    "quickLinks": {
+      "title": "快速链接",
+      "home": "首页",
+      "aboutUs": "关于我们",
+      "refundPolicy": "退款政策",
+      "subscriptionTerms": "订阅条款"
+    },
+    "copyright": " 2024 Cozyai LLC. All rights reserved."
+  },
+  "common": {
+    "previous": "上一页",
+    "next": "下一页",
+    "morePage": "更多页面",
+    "close": "关闭"
+  }
+}
