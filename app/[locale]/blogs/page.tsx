@@ -2,10 +2,10 @@
 import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 
+import { getAllArticles } from '@/actions/ai-content'
 import { Link } from '@/i18n/navigation'
 import { formatDate } from '@/lib/utils'
 
-import { getAllArticles } from '@/actions/ai-content'
 
 export const runtime = 'edge'
 
