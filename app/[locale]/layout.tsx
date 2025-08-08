@@ -13,6 +13,7 @@ import type { Metadata } from 'next'
 
 import '../globals.css'
 
+export const runtime = 'edge'
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('siteInfo.meta')
 

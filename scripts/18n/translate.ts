@@ -310,7 +310,24 @@ export async function translateMessages(options: TranslationOptions): Promise<Tr
           continue
         }
 
-        const translatedContent = allTranslations[localeCode]
+        // 修正：allTranslations 可能是 string，需要先解析为对象
+        let translationsObj: Record<string, any>
+        if (typeof allTranslations === 'string') {
+          try {
+            translationsObj = JSON.parse(allTranslations)
+          } catch (e) {
+            results.push({
+              success: false,
+              locale: localeCode,
+              error: `无法解析翻译结果的JSON: ${(e as Error).message}`
+            })
+            continue
+          }
+        } else {
+          translationsObj = allTranslations
+        }
+
+        const translatedContent = translationsObj[localeCode]
 
         if (!translatedContent) {
           results.push({
