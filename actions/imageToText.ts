@@ -1,5 +1,4 @@
 'use server'
-
 import { createAI } from '@/lib/ai';
 
 export const imageToText = async ({ buffer, prompt }: { buffer: Uint8Array<ArrayBuffer>; prompt?: string }) => {

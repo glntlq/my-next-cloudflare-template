@@ -1,21 +1,21 @@
 {
   "HomePage": {
-    "title": "",
-    "about": "",
+    "title": "你好",
+    "about": "前往关于页面",
     "meta": {
       "title": "{brandName} 首页",
       "description": "欢迎访问 {brandName} 的首页"
     }
   },
   "AboutPage": {
-    "title": "",
-    "home": "",
-    "description": "",
-    "settings": ""
+    "title": "关于本站",
+    "home": "前往首页",
+    "description": "这是我们网站的描述",
+    "settings": "设置"
   },
   "headers": {
-    "home": "",
-    "about": ""
+    "home": "首页",
+    "about": "关于"
   },
   "siteInfo": {
     "brandName": "Next 模板",
@@ -60,6 +60,161 @@
     "previous": "上一页",
     "next": "下一页",
     "morePage": "更多页面",
-    "close": "关闭"
+    "close": "关闭",
+    "loading": "正在加载...",
+    "cancel": "取消",
+    "freeUsage": "{used}/{total} 免费积分",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "submit": "提交",
+    "morePages": "查看更多页面",
+    "language": "语言",
+    "selectLanguage": "选择语言"
+  },
+  "blog": {
+    "postNotFound": "找不到文章",
+    "postNotFoundDescription": "您正在寻找的博客文章未找到。",
+    "publishedAt": "发表于 {date}"
+  },
+  "blogs": {
+    "pageTitle": "博客文章",
+    "metaTitle": "{brandName} 博客 - 洞察与文章",
+    "metaDescription": "探索我们关于美容分析、人工智能技术和面部美学的最新文章。发现专家见解、技巧和人工智能驱动的美容评估领域的趋势。",
+    "noArticles": "",
+    "publishedAt": ""
+  },
+  "admin": {
+    "batch": {
+      "title": "",
+      "backToArticles": "返回文章列表",
+      "keywordsCard": {
+        "title": "输入关键词",
+        "label": "关键词（一行一个）"
+      },
+      "buttons": {
+        "generateArticles": "生成文章",
+        "saving": "保存中...",
+        "saveSelected": "保存已选文章"
+      },
+      "generatedArticles": {
+        "title": "生成的文章",
+        "selectAll": "全选"
+      },
+      "saveResults": {
+        "title": "保存结果"
+      },
+      "status": {
+        "generated": "✓ 已生成",
+        "saved": "✓ 已保存",
+        "failed": "✗ 失败"
+      },
+      "errors": {
+        "emptyKeywords": "请输入至少一个关键词",
+        "noValidKeywords": "请输入至少一个有效的关键词",
+        "generateFailed": "文章生成失败，请重试",
+        "noArticlesToSave": "没有文章可保存",
+        "noSelectedArticles": "没有选择文章可保存",
+        "saveFailed": "保存文章失败，请重试"
+      },
+      "success": {
+        "generated": "成功生成 {successCount} 篇文章{errorMessage}",
+        "saved": "{successCount} 篇文章已 {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} 篇失败"
+      },
+      "publishStatus": {
+        "published": "已发布",
+        "draft": "保存为草稿"
+      }
+    },
+    "new": {
+      "backToArticles": "返回文章列表",
+      "title": "创建新文章",
+      "keywordSection": {
+        "label": "关键词",
+        "placeholder": "输入文章关键词"
+      },
+      "articleForm": {
+        "slugLabel": "slug",
+        "titleLabel": "标题",
+        "excerptLabel": "摘要",
+        "contentLabel": "内容",
+        "publishImmediately": "立即发布"
+      },
+      "buttons": {
+        "generating": "生成中...",
+        "generateArticle": "生成文章",
+        "saving": "保存中...",
+        "saveArticle": "保存文章",
+        "cancel": "取消"
+      },
+      "errors": {
+        "emptyKeyword": "请输入关键词",
+        "generateFailed": "文章生成失败，请重试",
+        "saveFailed": "保存文章失败，请重试"
+      },
+      "success": {
+        "generated": "文章生成成功",
+        "published": "文章已发布",
+        "savedAsDraft": "文章已保存为草稿"
+      }
+    },
+    "edit": {
+      "title": "编辑文章",
+      "loading": "加载中...",
+      "articleForm": {
+        "titleLabel": "标题",
+        "excerptLabel": "摘要",
+        "contentLabel": "内容",
+        "publishArticle": "发布文章"
+      },
+      "deleteDialog": {
+        "title": "确认删除",
+        "description": "您确定要删除这篇文章吗？此操作无法撤销。"
+      },
+      "buttons": {
+        "saving": "保存中...",
+        "saveArticle": "保存文章",
+        "deleting": "删除中...",
+        "deleteArticle": "删除文章",
+        "delete": "删除",
+        "cancel": "取消"
+      },
+      "errors": {
+        "articleNotFound": "未找到文章",
+        "fetchFailed": "获取文章失败",
+        "updateFailed": "更新文章失败",
+        "deleteFailed": "删除文章失败"
+      },
+      "success": {
+        "updated": "文章更新成功",
+        "deleted": "文章删除成功"
+      }
+    },
+    "list": {
+      "title": "文章管理",
+      "buttons": {
+        "createNew": "创建新文章",
+        "batchCreate": "批量创建"
+      },
+      "table": {
+        "headers": {
+          "title": "标题",
+          "createdDate": "创建时间",
+          "status": "状态",
+          "actions": "操作",
+          "language": "语言"
+        },
+        "noArticles": "未找到文章"
+      },
+      "status": {
+        "published": "已发布",
+        "draft": "草稿"
+      },
+      "actions": {
+        "edit": "编辑",
+        "view": "查看"
+      }
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "Olá",
-    "about": "Ir para a página sobre",
+    "about": "Ir para a página de informações",
     "meta": {
       "title": "Início | {brandName}",
       "description": "Bem-vindo à página inicial de {brandName}"
@@ -10,7 +10,7 @@
   "AboutPage": {
     "title": "Sobre este site",
     "home": "Ir para a página inicial",
-    "description": "Esta é uma descrição do nosso site",
+    "description": "Este é uma descrição do nosso site",
     "settings": "Configurações"
   },
   "headers": {
@@ -60,6 +60,161 @@
     "previous": "Anterior",
     "next": "Próximo",
     "morePage": "Mais páginas",
-    "close": "Fechar"
+    "close": "Fechar",
+    "loading": "Carregando...",
+    "cancel": "Cancelar",
+    "freeUsage": "{used}/{total} Créditos gratuitos",
+    "save": "Salvar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "submit": "Enviar",
+    "morePages": "Ver mais páginas",
+    "language": "Idioma",
+    "selectLanguage": "Selecione o idioma"
+  },
+  "blog": {
+    "postNotFound": "Publicação não encontrada",
+    "postNotFoundDescription": "A publicação do blog que você está procurando não foi encontrada.",
+    "publishedAt": "Publicado em {date}"
+  },
+  "blogs": {
+    "pageTitle": "Publicações do blog",
+    "metaTitle": "Perspectivas e artigos | {brandName} Blog",
+    "metaDescription": "Explore nossos últimos artigos sobre análise de beleza, tecnologia de inteligência artificial e estética facial. Descubra perspectivas de especialistas, dicas e tendências no mundo da avaliação de beleza impulsionada por inteligência artificial.",
+    "noArticles": "Nenhum artigo disponível",
+    "publishedAt": "Publicado em {date}"
+  },
+  "admin": {
+    "batch": {
+      "title": "Criar artigos em lote",
+      "backToArticles": "Voltar à lista de artigos",
+      "keywordsCard": {
+        "title": "Inserir palavras-chave",
+        "label": "Palavras-chave (uma por linha)"
+      },
+      "buttons": {
+        "generateArticles": "Gerar artigos",
+        "saving": "Salvando...",
+        "saveSelected": "Salvar artigos selecionados"
+      },
+      "generatedArticles": {
+        "title": "Artigos gerados",
+        "selectAll": "Selecionar tudo"
+      },
+      "saveResults": {
+        "title": "Salvar resultados"
+      },
+      "status": {
+        "generated": "✓ Gerado",
+        "saved": "✓ Salvo",
+        "failed": "✗ Falha"
+      },
+      "errors": {
+        "emptyKeywords": "Por favor, insira pelo menos uma palavra-chave",
+        "noValidKeywords": "Por favor, insira pelo menos uma palavra-chave válida",
+        "generateFailed": "Falha ao gerar artigos, por favor tente novamente",
+        "noArticlesToSave": "Nenhum artigo para salvar",
+        "noSelectedArticles": "Nenhum artigo selecionado para salvar",
+        "saveFailed": "Falha ao salvar os artigos. Por favor, tente novamente"
+      },
+      "success": {
+        "generated": "{successCount} artigos gerados com sucesso{errorMessage}",
+        "saved": "{successCount} artigos {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} falharam"
+      },
+      "publishStatus": {
+        "published": "Publicado",
+        "draft": "Salvo como rascunho"
+      }
+    },
+    "new": {
+      "backToArticles": "Voltar à lista de artigos",
+      "title": "Criar novo artigo",
+      "keywordSection": {
+        "label": "Palavra-chave",
+        "placeholder": "Insira a palavra-chave do artigo"
+      },
+      "articleForm": {
+        "slugLabel": "Slug",
+        "titleLabel": "Título",
+        "excerptLabel": "Resumo",
+        "contentLabel": "Conteúdo",
+        "publishImmediately": "Publicar imediatamente"
+      },
+      "buttons": {
+        "generating": "Gerando...",
+        "generateArticle": "Gerar artigo",
+        "saving": "Salvando...",
+        "saveArticle": "Salvar artigo",
+        "cancel": "Cancelar"
+      },
+      "errors": {
+        "emptyKeyword": "Por favor, insira uma palavra-chave",
+        "generateFailed": "Falha ao gerar o artigo, tente novamente",
+        "saveFailed": "Falha ao salvar o artigo, por favor tente novamente"
+      },
+      "success": {
+        "generated": "Artigo gerado com sucesso",
+        "published": "Artigo publicado",
+        "savedAsDraft": "Artigo salvo como rascunho"
+      }
+    },
+    "edit": {
+      "title": "Editar artigo",
+      "loading": "Carregando...",
+      "articleForm": {
+        "titleLabel": "Título",
+        "excerptLabel": "Resumo",
+        "contentLabel": "Conteúdo",
+        "publishArticle": "Publicar artigo"
+      },
+      "deleteDialog": {
+        "title": "Confirmar exclusão",
+        "description": "Tem certeza de que deseja excluir este artigo? Esta ação não pode ser desfeita."
+      },
+      "buttons": {
+        "saving": "Salvando...",
+        "saveArticle": "Salvar artigo",
+        "deleting": "Excluindo...",
+        "deleteArticle": "Excluir artigo",
+        "delete": "Excluir",
+        "cancel": "Cancelar"
+      },
+      "errors": {
+        "articleNotFound": "Artigo não encontrado",
+        "fetchFailed": "Falha ao obter o artigo",
+        "updateFailed": "Falha ao atualizar o artigo",
+        "deleteFailed": "Falha ao excluir o artigo"
+      },
+      "success": {
+        "updated": "Artigo atualizado com sucesso",
+        "deleted": "Artigo excluído com sucesso"
+      }
+    },
+    "list": {
+      "title": "Gestão de artigos",
+      "buttons": {
+        "createNew": "Criar novo artigo",
+        "batchCreate": "Criação em lote"
+      },
+      "table": {
+        "headers": {
+          "title": "Título",
+          "createdDate": "Data de criação",
+          "status": "Status",
+          "actions": "Ações",
+          "language": "Idioma"
+        },
+        "noArticles": "Nenhum artigo encontrado"
+      },
+      "status": {
+        "published": "Publicado",
+        "draft": "Rascunho"
+      },
+      "actions": {
+        "edit": "Editar",
+        "view": "Ver"
+      }
+    }
   }
 }

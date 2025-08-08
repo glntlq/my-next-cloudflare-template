@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "Hola",
-    "about": "Ir a la página de Acerca de",
+    "about": "Ir a la página de información",
     "meta": {
       "title": "Inicio | {brandName}",
       "description": "Bienvenido a la página de inicio de {brandName}"
@@ -10,8 +10,8 @@
   "AboutPage": {
     "title": "Acerca de este sitio",
     "home": "Ir a la página de inicio",
-    "description": "Esta es una descripción de nuestro sitio web",
-    "settings": "Configuración"
+    "description": "Esto es una descripción de nuestro sitio web",
+    "settings": "Ajustes"
   },
   "headers": {
     "home": "Inicio",
@@ -60,6 +60,161 @@
     "previous": "Anterior",
     "next": "Siguiente",
     "morePage": "Más páginas",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "loading": "Cargando...",
+    "cancel": "Cancelar",
+    "freeUsage": "{used}/{total} Créditos gratuitos",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "submit": "Enviar",
+    "morePages": "Ver más páginas",
+    "language": "Idioma",
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "blog": {
+    "postNotFound": "Publicación no encontrada",
+    "postNotFoundDescription": "No se encontró la publicación de blog que estás buscando.",
+    "publishedAt": "Publicado el {date}"
+  },
+  "blogs": {
+    "pageTitle": "Publicaciones del blog",
+    "metaTitle": "Perspectivas y artículos | {brandName} Blog",
+    "metaDescription": "Explore nuestros últimos artículos sobre análisis de belleza, tecnología de inteligencia artificial y estética facial. Descubra perspectivas expertas, consejos y tendencias en el mundo de la evaluación de belleza impulsada por inteligencia artificial.",
+    "noArticles": "No hay artículos disponibles",
+    "publishedAt": "Publicado en {date}"
+  },
+  "admin": {
+    "batch": {
+      "title": "Crear artículos en lote",
+      "backToArticles": "Volver a la lista de artículos",
+      "keywordsCard": {
+        "title": "Introducir palabras clave",
+        "label": "Palabras clave (una por línea)"
+      },
+      "buttons": {
+        "generateArticles": "Generar artículos",
+        "saving": "Guardando...",
+        "saveSelected": "Guardar artículos seleccionados"
+      },
+      "generatedArticles": {
+        "title": "Artículos generados",
+        "selectAll": "Seleccionar todo"
+      },
+      "saveResults": {
+        "title": "Guardar resultados"
+      },
+      "status": {
+        "generated": "✓ Generado",
+        "saved": "✓ Guardado",
+        "failed": "✗ Fallo"
+      },
+      "errors": {
+        "emptyKeywords": "Por favor, ingrese al menos una palabra clave",
+        "noValidKeywords": "Por favor, ingrese al menos una palabra clave válida",
+        "generateFailed": "Falló la generación de artículos, inténtelo de nuevo",
+        "noArticlesToSave": "No hay artículos para guardar",
+        "noSelectedArticles": "No se han seleccionado artículos para guardar",
+        "saveFailed": "Error al guardar los artículos. Por favor, inténtelo de nuevo"
+      },
+      "success": {
+        "generated": "Se han generado {successCount} artículos correctamente{errorMessage}",
+        "saved": "{successCount} artículos {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} fallaron"
+      },
+      "publishStatus": {
+        "published": "Publicado",
+        "draft": "Guardado como borrador"
+      }
+    },
+    "new": {
+      "backToArticles": "Volver a la lista de artículos",
+      "title": "Crear nuevo artículo",
+      "keywordSection": {
+        "label": "Palabra clave",
+        "placeholder": "Ingrese la palabra clave del artículo"
+      },
+      "articleForm": {
+        "slugLabel": "Slug",
+        "titleLabel": "Título",
+        "excerptLabel": "Extracto",
+        "contentLabel": "Contenido",
+        "publishImmediately": "Publicar inmediatamente"
+      },
+      "buttons": {
+        "generating": "Generando...",
+        "generateArticle": "Generar artículo",
+        "saving": "Guardando...",
+        "saveArticle": "Guardar artículo",
+        "cancel": "Cancelar"
+      },
+      "errors": {
+        "emptyKeyword": "Por favor, ingrese una palabra clave",
+        "generateFailed": "Falló la generación del artículo, inténtelo de nuevo",
+        "saveFailed": "Error al guardar el artículo, por favor inténtelo de nuevo"
+      },
+      "success": {
+        "generated": "Artículo generado con éxito",
+        "published": "Artículo publicado",
+        "savedAsDraft": "Artículo guardado como borrador"
+      }
+    },
+    "edit": {
+      "title": "Editar artículo",
+      "loading": "Cargando...",
+      "articleForm": {
+        "titleLabel": "Título",
+        "excerptLabel": "Extracto",
+        "contentLabel": "Contenido",
+        "publishArticle": "Publicar artículo"
+      },
+      "deleteDialog": {
+        "title": "Confirmar eliminación",
+        "description": "¿Está seguro de que desea eliminar este artículo? Esta acción no se puede deshacer."
+      },
+      "buttons": {
+        "saving": "Guardando...",
+        "saveArticle": "Guardar artículo",
+        "deleting": "Eliminando...",
+        "deleteArticle": "Eliminar artículo",
+        "delete": "Eliminar",
+        "cancel": "Cancelar"
+      },
+      "errors": {
+        "articleNotFound": "Artículo no encontrado",
+        "fetchFailed": "Error al obtener el artículo",
+        "updateFailed": "Error al actualizar el artículo",
+        "deleteFailed": "No se pudo eliminar el artículo"
+      },
+      "success": {
+        "updated": "Artículo actualizado con éxito",
+        "deleted": "Artículo eliminado con éxito"
+      }
+    },
+    "list": {
+      "title": "Gestión de artículos",
+      "buttons": {
+        "createNew": "Crear nuevo artículo",
+        "batchCreate": "Crear por lotes"
+      },
+      "table": {
+        "headers": {
+          "title": "Título",
+          "createdDate": "Fecha de creación",
+          "status": "Estado",
+          "actions": "Acciones",
+          "language": "Idioma"
+        },
+        "noArticles": "No se encontraron artículos"
+      },
+      "status": {
+        "published": "Publicado",
+        "draft": "Borrador"
+      },
+      "actions": {
+        "edit": "Editar",
+        "view": "Ver"
+      }
+    }
   }
 }

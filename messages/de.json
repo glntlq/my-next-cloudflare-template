@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "Hallo",
-    "about": "Gehen Sie zur Über-uns-Seite",
+    "about": "Gehen Sie zur Infoseite",
     "meta": {
       "title": "Startseite | {brandName}",
       "description": "Willkommen auf der Startseite von {brandName}"
@@ -60,6 +60,161 @@
     "previous": "Zurück",
     "next": "Weiter",
     "morePage": "Mehr Seiten",
-    "close": "Schließen"
+    "close": "Schließen",
+    "loading": "Lädt...",
+    "cancel": "Abbrechen",
+    "freeUsage": "{used}/{total} Kostenlose Credits",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "submit": "Einreichen",
+    "morePages": "Mehr Seiten anzeigen",
+    "language": "Sprache",
+    "selectLanguage": "Sprache auswählen"
+  },
+  "blog": {
+    "postNotFound": "Beitrag nicht gefunden",
+    "postNotFoundDescription": "Der gesuchte Blog-Beitrag wurde nicht gefunden.",
+    "publishedAt": "Veröffentlicht am {date}"
+  },
+  "blogs": {
+    "pageTitle": "Blog-Beiträge",
+    "metaTitle": "Einblicke und Artikel | {brandName} Blog",
+    "metaDescription": "Entdecken Sie unsere neuesten Artikel über Schönheitsanalyse, KI-Technologie und Gesichtsaesthetik. Erhalten Sie Experten-Einblicke, Tipps und Trends aus der Welt der KI-gestützten Schönheitsbewertung.",
+    "noArticles": "Keine Artikel verfügbar",
+    "publishedAt": "Veröffentlicht am {date}"
+  },
+  "admin": {
+    "batch": {
+      "title": "Artikel im Batch erstellen",
+      "backToArticles": "Zurück zur Artikelliste",
+      "keywordsCard": {
+        "title": "Schlüsselwörter eingeben",
+        "label": "Schlüsselwörter (eins pro Zeile)"
+      },
+      "buttons": {
+        "generateArticles": "Artikel generieren",
+        "saving": "Speichern...",
+        "saveSelected": "Ausgewählte Artikel speichern"
+      },
+      "generatedArticles": {
+        "title": "Generierte Artikel",
+        "selectAll": "Alle auswählen"
+      },
+      "saveResults": {
+        "title": "Ergebnisse speichern"
+      },
+      "status": {
+        "generated": "✓ Generiert",
+        "saved": "✓ Gespeichert",
+        "failed": "✗ Fehlgeschlagen"
+      },
+      "errors": {
+        "emptyKeywords": "Bitte geben Sie mindestens ein Schlüsselwort ein",
+        "noValidKeywords": "Bitte geben Sie mindestens ein gültiges Schlüsselwort ein",
+        "generateFailed": "Die Artikelgenerierung ist fehlgeschlagen, bitte versuchen Sie es erneut",
+        "noArticlesToSave": "Keine Artikel zum Speichern vorhanden",
+        "noSelectedArticles": "Keine Artikel zum Speichern ausgewählt",
+        "saveFailed": "Fehler beim Speichern der Artikel. Bitte versuchen Sie es erneut"
+      },
+      "success": {
+        "generated": "{successCount} Artikel erfolgreich generiert{errorMessage}",
+        "saved": "{successCount} Artikel {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} fehlgeschlagen"
+      },
+      "publishStatus": {
+        "published": "Veröffentlicht",
+        "draft": "Als Entwurf gespeichert"
+      }
+    },
+    "new": {
+      "backToArticles": "Zurück zur Artikelliste",
+      "title": "Neuen Artikel erstellen",
+      "keywordSection": {
+        "label": "Schlüsselwort",
+        "placeholder": "Artikel-Schlüsselwort eingeben"
+      },
+      "articleForm": {
+        "slugLabel": "Slug",
+        "titleLabel": "Titel",
+        "excerptLabel": "Zusammenfassung",
+        "contentLabel": "Inhalt",
+        "publishImmediately": "Sofort veröffentlichen"
+      },
+      "buttons": {
+        "generating": "Wird generiert...",
+        "generateArticle": "Artikel erstellen",
+        "saving": "Speichern...",
+        "saveArticle": "Artikel speichern",
+        "cancel": "Abbrechen"
+      },
+      "errors": {
+        "emptyKeyword": "Bitte geben Sie ein Schlüsselwort ein",
+        "generateFailed": "Die Artikelgenerierung ist fehlgeschlagen, bitte versuchen Sie es erneut",
+        "saveFailed": "Fehler beim Speichern des Artikels, bitte versuchen Sie es erneut"
+      },
+      "success": {
+        "generated": "Artikel erfolgreich generiert",
+        "published": "Artikel veröffentlicht",
+        "savedAsDraft": "Artikel als Entwurf gespeichert"
+      }
+    },
+    "edit": {
+      "title": "Artikel bearbeiten",
+      "loading": "Ladevorgang...",
+      "articleForm": {
+        "titleLabel": "Titel",
+        "excerptLabel": "Zusammenfassung",
+        "contentLabel": "Inhalt",
+        "publishArticle": "Artikel veröffentlichen"
+      },
+      "deleteDialog": {
+        "title": "Löschen bestätigen",
+        "description": "Sind Sie sicher, dass Sie diesen Artikel löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+      },
+      "buttons": {
+        "saving": "Speichern...",
+        "saveArticle": "Artikel speichern",
+        "deleting": "Löschen...",
+        "deleteArticle": "Artikel löschen",
+        "delete": "Löschen",
+        "cancel": "Abbrechen"
+      },
+      "errors": {
+        "articleNotFound": "Artikel nicht gefunden",
+        "fetchFailed": "Fehler beim Abrufen des Artikels",
+        "updateFailed": "Fehler beim Aktualisieren des Artikels",
+        "deleteFailed": "Löschen des Artikels fehlgeschlagen"
+      },
+      "success": {
+        "updated": "Artikel erfolgreich aktualisiert",
+        "deleted": "Artikel erfolgreich gelöscht"
+      }
+    },
+    "list": {
+      "title": "Artikelverwaltung",
+      "buttons": {
+        "createNew": "Neuen Artikel erstellen",
+        "batchCreate": "Stapel erstellen"
+      },
+      "table": {
+        "headers": {
+          "title": "Titel",
+          "createdDate": "Erstellungsdatum",
+          "status": "Status",
+          "actions": "Aktionen",
+          "language": "Sprache"
+        },
+        "noArticles": "Keine Artikel gefunden"
+      },
+      "status": {
+        "published": "Veröffentlicht",
+        "draft": "Entwurf"
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "view": "Anzeigen"
+      }
+    }
   }
 }
