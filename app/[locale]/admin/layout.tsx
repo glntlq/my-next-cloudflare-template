@@ -14,7 +14,6 @@ export default async function AdminLayout({
 }) {
   const { locale } = await params
   const s = await auth()
-  console.log(s?.user?.id, '1231')
   if (s?.user?.id !== process.env.NEXT_PUBLIC_ADMIN_ID) {
     redirect({
       href: '/',
