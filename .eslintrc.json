@@ -12,7 +12,7 @@
     "@typescript-eslint/no-empty-object-type": "off",
     "@next/next/no-img-element": "off",
     "import/order": [
-      "error",
+      "warn",
       {
         "groups": ["builtin", "external", "internal", ["parent", "sibling"], "index", "object", "type"],
         "newlines-between": "always",
