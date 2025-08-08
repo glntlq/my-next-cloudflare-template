@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "مرحبا",
-    "about": "انتقل إلى صفحة عن",
+    "about": "انتقل إلى صفحة المعلومات",
     "meta": {
       "title": "الصفحة الرئيسية | {brandName}",
       "description": "مرحبًا بك في الصفحة الرئيسية لـ {brandName}"
@@ -10,12 +10,12 @@
   "AboutPage": {
     "title": "عن هذا الموقع",
     "home": "انتقل إلى الصفحة الرئيسية",
-    "description": "هذا وصف لموقعنا على الإنترنت",
+    "description": "هذا هو وصف لموقعنا على الإنترنت",
     "settings": "الإعدادات"
   },
   "headers": {
     "home": "الصفحة الرئيسية",
-    "about": "عن"
+    "about": "معلومات عنا"
   },
   "siteInfo": {
     "brandName": "قالب التالي",
@@ -60,6 +60,161 @@
     "previous": "السابق",
     "next": "التالي",
     "morePage": "المزيد من الصفحات",
-    "close": "إغلاق"
+    "close": "إغلاق",
+    "loading": "جارٍ التحميل...",
+    "cancel": "إلغاء",
+    "freeUsage": "{used}/{total} اعتمادات مجانية",
+    "save": "حفظ",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "submit": "إرسال",
+    "morePages": "عرض المزيد من الصفحات",
+    "language": "اللغة",
+    "selectLanguage": "اختر اللغة"
+  },
+  "blog": {
+    "postNotFound": "المنشور لم يتم العثور عليه",
+    "postNotFoundDescription": "لم يتم العثور على المنشور في المدونة الذي تبحث عنه.",
+    "publishedAt": "نُشر في {date}"
+  },
+  "blogs": {
+    "pageTitle": "منشورات المدونة",
+    "metaTitle": "رؤى ومقالات | {brandName} مدونة",
+    "metaDescription": "استكشف أحدث مقالاتنا حول تحليل الجمال، وتكنولوجيا الذكاء الاصطناعي، وجماليات الوجه. اكتشف رؤى الخبراء، ونصائح، واتجاهات في عالم تقييم الجمال المدعوم بالذكاء الاصطناعي.",
+    "noArticles": "لا تتوفر مقالات",
+    "publishedAt": "نُشر في {date}"
+  },
+  "admin": {
+    "batch": {
+      "title": "إنشاء مقالات دفعة واحدة",
+      "backToArticles": "العودة إلى قائمة المقالات",
+      "keywordsCard": {
+        "title": "أدخل الكلمات الدلالية",
+        "label": "الكلمات الدلالية (واحدة لكل سطر)"
+      },
+      "buttons": {
+        "generateArticles": "إنشاء مقالات",
+        "saving": "حفظ...",
+        "saveSelected": "حفظ المقالات المحددة"
+      },
+      "generatedArticles": {
+        "title": "المواد التي تم إنشاؤها",
+        "selectAll": "اختيار الكل"
+      },
+      "saveResults": {
+        "title": "حفظ النتائج"
+      },
+      "status": {
+        "generated": "✓ تم إنشاؤه",
+        "saved": "✓ تم الحفظ",
+        "failed": "✗ فشل"
+      },
+      "errors": {
+        "emptyKeywords": "الرجاء إدخال كلمة مرور واحدة على الأقل",
+        "noValidKeywords": "الرجاء إدخال كلمة مرور واحدة على الأقل",
+        "generateFailed": "فشل في إنشاء المقالات، الرجاء المحاولة مرة أخرى",
+        "noArticlesToSave": "لا توجد مقالات لحفظها",
+        "noSelectedArticles": "لم يتم اختيار مقالات لحفظها",
+        "saveFailed": "فشل في حفظ المقالات. الرجاء المحاولة مرة أخرى"
+      },
+      "success": {
+        "generated": "تم إنشاء {successCount} مقال بنجاح{errorMessage}",
+        "saved": "{successCount} مقال {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} فشلت"
+      },
+      "publishStatus": {
+        "published": "تم النشر",
+        "draft": "تم حفظه كمسودة"
+      }
+    },
+    "new": {
+      "backToArticles": "العودة إلى قائمة المقالات",
+      "title": "إنشاء مقال جديد",
+      "keywordSection": {
+        "label": "كلمة مفتاحية",
+        "placeholder": "أدخل كلمة مفتاحية للمقال"
+      },
+      "articleForm": {
+        "slugLabel": "Slug",
+        "titleLabel": "العنوان",
+        "excerptLabel": "ملخص",
+        "contentLabel": "المحتوى",
+        "publishImmediately": "نشر على الفور"
+      },
+      "buttons": {
+        "generating": "يتم إنشاؤها...",
+        "generateArticle": "إنشاء مقال",
+        "saving": "جاري الحفظ...",
+        "saveArticle": "حفظ المقال",
+        "cancel": "إلغاء"
+      },
+      "errors": {
+        "emptyKeyword": "الرجاء إدخال كلمة مفتاحية",
+        "generateFailed": "فشل في إنشاء المقال، يرجى المحاولة مرة أخرى",
+        "saveFailed": "فشل في حفظ المقال، يرجى المحاولة مرة أخرى"
+      },
+      "success": {
+        "generated": "تم إنشاء المقال بنجاح",
+        "published": "تم نشر المقال",
+        "savedAsDraft": "تم حفظ المقال كمسودة"
+      }
+    },
+    "edit": {
+      "title": "تحرير المقال",
+      "loading": "تحميل...",
+      "articleForm": {
+        "titleLabel": "العنوان",
+        "excerptLabel": "ملخص",
+        "contentLabel": "المحتوى",
+        "publishArticle": "نشر المقال"
+      },
+      "deleteDialog": {
+        "title": "تأكيد الحذف",
+        "description": "هل أنت متأكد من رغبتك في حذف هذه المقالة؟ لا يمكن التراجع عن هذا الإجراء."
+      },
+      "buttons": {
+        "saving": "جاري الحفظ...",
+        "saveArticle": "حفظ المقال",
+        "deleting": "جاري الحذف...",
+        "deleteArticle": "حذف المقال",
+        "delete": "حذف",
+        "cancel": "إلغاء"
+      },
+      "errors": {
+        "articleNotFound": "لم يتم العثور على المقال",
+        "fetchFailed": "فشل في جلب المقال",
+        "updateFailed": "فشل في تحديث المقال",
+        "deleteFailed": "فشل في حذف المقال"
+      },
+      "success": {
+        "updated": "تم تحديث المقال بنجاح",
+        "deleted": "تم حذف المقال بنجاح"
+      }
+    },
+    "list": {
+      "title": "إدارة المقالات",
+      "buttons": {
+        "createNew": "إنشاء مقال جديد",
+        "batchCreate": "إنشاء دفعة"
+      },
+      "table": {
+        "headers": {
+          "title": "العنوان",
+          "createdDate": "تاريخ الإنشاء",
+          "status": "الحالة",
+          "actions": "إجراءات",
+          "language": "اللغة"
+        },
+        "noArticles": "لم يتم العثور على مقالات"
+      },
+      "status": {
+        "published": "تم النشر",
+        "draft": "مسودة"
+      },
+      "actions": {
+        "edit": "تحرير",
+        "view": "عرض"
+      }
+    }
   }
 }

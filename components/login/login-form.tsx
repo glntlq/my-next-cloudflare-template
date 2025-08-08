@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Loader2, Mail } from 'lucide-react'
+import { Loader2, Mail } from 'lucide-react'
 import { signIn } from 'next-auth/react'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
@@ -22,7 +22,7 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
     email: false
   })
 
-  const handleSignIn = async (provider: 'google' | 'github' | 'resend') => {
+  const handleSignIn = async (provider: 'google' | 'resend') => {
     setIsLoading((prev) => ({ ...prev, [provider]: true }))
     try {
       const result = await signIn(provider, {
@@ -47,11 +47,7 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
 
   return (
     <div className="space-y-6">
-      <Button
-        onClick={() => handleSignIn('google')}
-        disabled={isLoading.google}
-        className="w-full bg-white font-semibold text-gray-800 shadow-md transition-all duration-200 hover:bg-gray-100 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
-      >
+      <Button onClick={() => handleSignIn('google')} disabled={isLoading.google} className="w-full">
         {isLoading.google ? (
           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
         ) : (
@@ -78,21 +74,10 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
         {t('continueWithGoogle')}
       </Button>
 
-      <Button
-        onClick={() => handleSignIn('github')}
-        disabled={isLoading.github}
-        className="w-full bg-gray-900 font-semibold text-white shadow-md transition-all duration-200 hover:bg-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600"
-      >
-        {isLoading.github ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Github className="mr-2 h-5 w-5" />}
-        {t('continueWithGithub')}
-      </Button>
-
       <div className="relative my-6 flex items-center">
-        <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>
-        <span className="mx-4 flex-shrink text-xs text-gray-500 uppercase dark:text-gray-400">
-          {t('orContinueWith')}
-        </span>
-        <div className="flex-grow border-t border-gray-300 dark:border-gray-600"></div>
+        <div className="border-border flex-grow border-t"></div>
+        <span className="text-muted-foreground mx-4 flex-shrink text-xs uppercase">{t('orContinueWith')}</span>
+        <div className="border-border flex-grow border-t"></div>
       </div>
 
       <form onSubmit={handleEmailSignIn} className="space-y-4">
@@ -102,13 +87,9 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-          className="w-full border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+          className="w-full"
         />
-        <Button
-          type="submit"
-          disabled={isLoading.email}
-          className="w-full bg-gradient-to-r from-blue-500 to-blue-600 font-semibold text-white shadow-md transition-all duration-200 hover:from-blue-600 hover:to-blue-700 dark:from-blue-600 dark:to-blue-700 dark:hover:from-blue-700 dark:hover:to-blue-800"
-        >
+        <Button type="submit" disabled={isLoading.email} className="w-full">
           {isLoading.email ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : <Mail className="mr-2 h-5 w-5" />}
           {t('signInWithEmail')}
         </Button>

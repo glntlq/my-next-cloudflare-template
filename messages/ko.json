@@ -1,7 +1,7 @@
 {
   "HomePage": {
     "title": "안녕하세요",
-    "about": "소개 페이지로 이동",
+    "about": "정보 페이지로 이동",
     "meta": {
       "title": "{brandName} 홈",
       "description": "{brandName}의 홈페이지에 오신 것을 환영합니다."
@@ -10,7 +10,7 @@
   "AboutPage": {
     "title": "이 사이트에 대하여",
     "home": "홈페이지로 이동",
-    "description": "이것은 우리 웹사이트에 대한 설명입니다",
+    "description": "이것은 우리의 웹사이트에 대한 설명입니다",
     "settings": "설정"
   },
   "headers": {
@@ -60,6 +60,161 @@
     "previous": "이전",
     "next": "다음",
     "morePage": "더 많은 페이지",
-    "close": "닫기"
+    "close": "닫기",
+    "loading": "로딩중...",
+    "cancel": "취소",
+    "freeUsage": "{used}/{total} 무료 크레딧",
+    "save": "저장",
+    "edit": "편집",
+    "delete": "삭제",
+    "submit": "제출",
+    "morePages": "더 많은 페이지 보기",
+    "language": "언어",
+    "selectLanguage": "언어 선택"
+  },
+  "blog": {
+    "postNotFound": "게시물을 찾을 수 없습니다",
+    "postNotFoundDescription": "찾으려는 블로그 게시물이 없습니다.",
+    "publishedAt": "{date}에 게시됨"
+  },
+  "blogs": {
+    "pageTitle": "블로그 게시물",
+    "metaTitle": "{brandName} 블로그 - 통찰력 및 기사",
+    "metaDescription": "미용 분석, AI 기술 및 안면 미학에 대한 최신 기사를 살펴보세요. AI 기반 미용 평가 세계의 전문가 통찰력, 팁 및 트렌드를 발견하세요.",
+    "noArticles": "",
+    "publishedAt": ""
+  },
+  "admin": {
+    "batch": {
+      "title": "",
+      "backToArticles": "기사 목록으로 돌아가기",
+      "keywordsCard": {
+        "title": "키워드 입력",
+        "label": "키워드(한 줄에 하나씩)"
+      },
+      "buttons": {
+        "generateArticles": "기사 생성",
+        "saving": "저장 중...",
+        "saveSelected": "선택한 기사 저장"
+      },
+      "generatedArticles": {
+        "title": "생성된 기사",
+        "selectAll": "모두 선택"
+      },
+      "saveResults": {
+        "title": "결과 저장"
+      },
+      "status": {
+        "generated": "✓ 생성됨",
+        "saved": "✓ 저장됨",
+        "failed": "✗ 실패"
+      },
+      "errors": {
+        "emptyKeywords": "최소 하나의 키워드를 입력하십시오",
+        "noValidKeywords": "최소 하나의 유효한 키워드를 입력하십시오",
+        "generateFailed": "기사 생성이 실패했습니다. 다시 시도하십시오",
+        "noArticlesToSave": "저장할 기사가 없습니다",
+        "noSelectedArticles": "저장할 기사가 선택되지 않았습니다",
+        "saveFailed": "기사를 저장하지 못했습니다. 다시 시도해 주세요"
+      },
+      "success": {
+        "generated": "{successCount} 개의 기사를 성공적으로 생성했습니다.{errorMessage}",
+        "saved": "{successCount} 개의 기사를 {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} 개 실패"
+      },
+      "publishStatus": {
+        "published": "게시됨",
+        "draft": "초안으로 저장"
+      }
+    },
+    "new": {
+      "backToArticles": "기사 목록으로 돌아가기",
+      "title": "새 기사 만들기",
+      "keywordSection": {
+        "label": "키워드",
+        "placeholder": "기사 키워드를 입력하세요"
+      },
+      "articleForm": {
+        "slugLabel": "슬러그",
+        "titleLabel": "제목",
+        "excerptLabel": "요약",
+        "contentLabel": "내용",
+        "publishImmediately": "즉시 발행"
+      },
+      "buttons": {
+        "generating": "생성중...",
+        "generateArticle": "기사 생성",
+        "saving": "저장 중...",
+        "saveArticle": "기사 저장",
+        "cancel": "취소"
+      },
+      "errors": {
+        "emptyKeyword": "키워드를 입력하세요",
+        "generateFailed": "기사 생성에 실패했습니다. 다시 시도하세요",
+        "saveFailed": "기사 저장에 실패했습니다. 다시 시도해주세요"
+      },
+      "success": {
+        "generated": "기사가 성공적으로 생성되었습니다",
+        "published": "기사가 게시되었습니다",
+        "savedAsDraft": "작성한 글이 초안으로 저장되었습니다."
+      }
+    },
+    "edit": {
+      "title": "글 수정",
+      "loading": "로딩중...",
+      "articleForm": {
+        "titleLabel": "제목",
+        "excerptLabel": "요약",
+        "contentLabel": "내용",
+        "publishArticle": "기사 게시"
+      },
+      "deleteDialog": {
+        "title": "삭제 확인",
+        "description": "이 기사를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다."
+      },
+      "buttons": {
+        "saving": "저장중...",
+        "saveArticle": "기사 저장",
+        "deleting": "삭제중...",
+        "deleteArticle": "기사 삭제",
+        "delete": "삭제",
+        "cancel": "취소"
+      },
+      "errors": {
+        "articleNotFound": "문서를 찾을 수 없습니다",
+        "fetchFailed": "문서 불러오기에 실패했습니다",
+        "updateFailed": "문서 업데이트에 실패했습니다",
+        "deleteFailed": "기사를 삭제하지 못했습니다."
+      },
+      "success": {
+        "updated": "기사가 성공적으로 업데이트되었습니다.",
+        "deleted": "기사가 성공적으로 삭제되었습니다."
+      }
+    },
+    "list": {
+      "title": "기사 관리",
+      "buttons": {
+        "createNew": "새 기사 만들기",
+        "batchCreate": "일괄 생성"
+      },
+      "table": {
+        "headers": {
+          "title": "제목",
+          "createdDate": "생성 날짜",
+          "status": "상태",
+          "actions": "작업",
+          "language": "언어"
+        },
+        "noArticles": "文章을 찾을 수 없습니다."
+      },
+      "status": {
+        "published": "게시됨",
+        "draft": "초안"
+      },
+      "actions": {
+        "edit": "편집",
+        "view": "보기"
+      }
+    }
   }
 }

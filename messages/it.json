@@ -1,21 +1,21 @@
 {
   "HomePage": {
     "title": "Ciao",
-    "about": "Vai alla pagina Chi siamo",
+    "about": "Vai alla pagina delle informazioni",
     "meta": {
       "title": "Home | {brandName}",
       "description": "Benvenuto sulla pagina di destinazione di {brandName}"
     }
   },
   "AboutPage": {
-    "title": "Informazioni su questo sito",
-    "home": "Vai alla pagina Home",
+    "title": "A proposito di questo sito",
+    "home": "Vai alla pagina di casa",
     "description": "Questa è una descrizione del nostro sito web",
     "settings": "Impostazioni"
   },
   "headers": {
     "home": "Home",
-    "about": "Chi siamo"
+    "about": "Informazioni"
   },
   "siteInfo": {
     "brandName": "Prossimo Template",
@@ -60,6 +60,161 @@
     "previous": "Precedente",
     "next": "Successivo",
     "morePage": "Altre pagine",
-    "close": "Chiudi"
+    "close": "Chiudi",
+    "loading": "Caricamento in corso...",
+    "cancel": "Annulla",
+    "freeUsage": "{used}/{total} Crediti gratuiti",
+    "save": "Salva",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "submit": "Invia",
+    "morePages": "Visualizza più pagine",
+    "language": "Lingua",
+    "selectLanguage": "Seleziona lingua"
+  },
+  "blog": {
+    "postNotFound": "Pubblicazione non trovata",
+    "postNotFoundDescription": "La pubblicazione del blog che stai cercando non è stata trovata.",
+    "publishedAt": "Pubblicato il {date}"
+  },
+  "blogs": {
+    "pageTitle": "Post del blog",
+    "metaTitle": "Intuizioni e articoli | {brandName} Blog",
+    "metaDescription": "Esplora i nostri ultimi articoli su analisi di bellezza, tecnologia di intelligenza artificiale ed estetica facciale. Scopri intuizioni di esperti, consigli e tendenze nel mondo della valutazione di bellezza basata sull'intelligenza artificiale.",
+    "noArticles": "Nessun articolo disponibile",
+    "publishedAt": "Pubblicato il {date}"
+  },
+  "admin": {
+    "batch": {
+      "title": "Crea articoli in batch",
+      "backToArticles": "Torna alla lista degli articoli",
+      "keywordsCard": {
+        "title": "Inserisci parole chiave",
+        "label": "Parole chiave (una per riga)"
+      },
+      "buttons": {
+        "generateArticles": "Genera articoli",
+        "saving": "Salvataggio in corso...",
+        "saveSelected": "Salva articoli selezionati"
+      },
+      "generatedArticles": {
+        "title": "Articoli generati",
+        "selectAll": "Seleziona tutto"
+      },
+      "saveResults": {
+        "title": "Salva risultati"
+      },
+      "status": {
+        "generated": "✓ Generato",
+        "saved": "✓ Salvato",
+        "failed": "✗ Fallito"
+      },
+      "errors": {
+        "emptyKeywords": "Si prega di inserire almeno una parola chiave",
+        "noValidKeywords": "Si prega di inserire almeno una parola chiave valida",
+        "generateFailed": "Generazione articoli fallita, si prega di riprovare",
+        "noArticlesToSave": "Nessun articolo da salvare",
+        "noSelectedArticles": "Nessun articolo selezionato da salvare",
+        "saveFailed": "Errore durante il salvataggio degli articoli. Si prega di riprovare"
+      },
+      "success": {
+        "generated": "{successCount} articoli generati correttamente{errorMessage}",
+        "saved": "{successCount} articoli {publishStatus}{errorMessage}",
+        "withErrors": ", {errorCount} non sono stati generati"
+      },
+      "publishStatus": {
+        "published": "Pubblicato",
+        "draft": "Salvato come bozza"
+      }
+    },
+    "new": {
+      "backToArticles": "Torna alla lista degli articoli",
+      "title": "Crea un nuovo articolo",
+      "keywordSection": {
+        "label": "Parola chiave",
+        "placeholder": "Inserisci la parola chiave dell'articolo"
+      },
+      "articleForm": {
+        "slugLabel": "Slug",
+        "titleLabel": "Titolo",
+        "excerptLabel": "Estratto",
+        "contentLabel": "Contenuto",
+        "publishImmediately": "Pubblica subito"
+      },
+      "buttons": {
+        "generating": "Generazione in corso...",
+        "generateArticle": "Genera articolo",
+        "saving": "Salvataggio in corso...",
+        "saveArticle": "Salva articolo",
+        "cancel": "Annulla"
+      },
+      "errors": {
+        "emptyKeyword": "Si prega di inserire una parola chiave",
+        "generateFailed": "Generazione articolo fallita, si prega di riprovare",
+        "saveFailed": "Errore durante il salvataggio dell'articolo, si prega di riprovare"
+      },
+      "success": {
+        "generated": "Articolo generato con successo",
+        "published": "Articolo pubblicato",
+        "savedAsDraft": "Articolo salvato come bozza"
+      }
+    },
+    "edit": {
+      "title": "Modifica articolo",
+      "loading": "Caricamento...",
+      "articleForm": {
+        "titleLabel": "Titolo",
+        "excerptLabel": "Estratto",
+        "contentLabel": "Contenuto",
+        "publishArticle": "Pubblica articolo"
+      },
+      "deleteDialog": {
+        "title": "Confermare l'eliminazione",
+        "description": "Sei sicuro di voler eliminare questo articolo? Questa azione non può essere annullata."
+      },
+      "buttons": {
+        "saving": "Salvataggio in corso...",
+        "saveArticle": "Salva articolo",
+        "deleting": "Eliminazione in corso...",
+        "deleteArticle": "Elimina articolo",
+        "delete": "Elimina",
+        "cancel": "Annulla"
+      },
+      "errors": {
+        "articleNotFound": "Articolo non trovato",
+        "fetchFailed": "Errore durante il recupero dell'articolo",
+        "updateFailed": "Errore durante l'aggiornamento dell'articolo",
+        "deleteFailed": "Eliminazione dell'articolo non riuscita"
+      },
+      "success": {
+        "updated": "Articolo aggiornato con successo",
+        "deleted": "Articolo eliminato con successo"
+      }
+    },
+    "list": {
+      "title": "Gestione articoli",
+      "buttons": {
+        "createNew": "Crea nuovo articolo",
+        "batchCreate": "Crea in batch"
+      },
+      "table": {
+        "headers": {
+          "title": "Titolo",
+          "createdDate": "Data di creazione",
+          "status": "Stato",
+          "actions": "Azioni",
+          "language": "Lingua"
+        },
+        "noArticles": "Nessun articolo trovato"
+      },
+      "status": {
+        "published": "Pubblicato",
+        "draft": "Bozza"
+      },
+      "actions": {
+        "edit": "Modifica",
+        "view": "Visualizza"
+      }
+    }
   }
 }
